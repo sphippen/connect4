@@ -1,0 +1,44 @@
+INTRODUCTION
+This is Connect4, a multiplayer networked C#/XNA Connect Four game.
+Users can play against each other over local networks and the internet.
+
+REPOSITORY LAYOUT
+Build/
+  Contains compiled versions of the game server and client.
+
+Connect4Client/
+  Contains the client back end (internal game state, interacting with the server, etc.).
+
+Connect4GUI/
+  Contains the client user interface.
+
+Connect4Server/
+  Contains the game server.
+
+Connect4Tester/
+  Contains unit tests for the rest of the project.
+
+Connect4.sln, Connect4.vsmdi, Local.testsettings, TraceAndTestImpact.testsettings
+  Visual Studio 2010 solution files.
+
+Doc/
+  Contains documentation describing game rules.
+
+LICENSE
+  Legal stuff.
+
+README
+  This file.
+
+USAGE
+  Describes how to run the server and client executables.
+
+COMPILATION
+The program can be built from inside Visual Studio 2010.
+The server executable will end up as "Connect4Server/bin/[BUILD TYPE]/Connect4Server.exe",
+where [BUILD TYPE] is either Debug or Release.
+The client executable will end up as "Connect4GUI/Connect4GUI/bin/[ARCH]/[BUILD TYPE]/Connect4GUI.exe",
+where [BUILD TYPE] is either Debug or Release and [ARCH] is the architecture (e.g. x86).
+
+AUTHORS
+Written by Spencer Phippen and Aric Parkinson as a class final project during October-November 2011.

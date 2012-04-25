@@ -1,0 +1,15 @@
+CLIENT USAGE
+The client, "Build/Client/Connect4.exe", requires XNA to be installed on your computer.
+The runtime can be downloaded at "http://www.microsoft.com/download/en/details.aspx?id=20914".
+When the runtime is installed, it can be run like a normal executable.
+However, it must be in the same directory as the provided "Build/Client/Connect4Client.dll" file and "Build/Client/Content" folder.
+
+SERVER USAGE
+The server, "Build/Client/Connect4Server.exe", does NOT require XNA to be installed.
+It is run as a command line application with the following syntax:
+
+Connect4Server.exe <portNumber> <timelimit>
+
+where <portNumber> is the port number to listen on, and <timelimit> is
+the number of seconds each player has for all of his/her turns.
+See the Doc/ folder for more info on game mechanics.
